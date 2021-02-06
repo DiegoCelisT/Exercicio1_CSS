@@ -1,5 +1,5 @@
 h1{
-    font-weight: 800; /*Peso de fonte Black*/
+    font-weight: 900; /*Peso da fonte Black*/
     font-size: 89px;
     line-height: 79px;
     color: #FFB300;
@@ -8,6 +8,9 @@ h1{
 header>img{
     width: 883px;
     height: 374px;
+    display: block;         /*Tô usando isso para centrar a imagem, procurei como fazer na internet*/
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 header>p{
@@ -17,39 +20,41 @@ header>p{
     font-size: 21px;
 }
 
-main>p:first-of-type{
-    font: size 21px;
-    font-weight: 500; /*Semi-bold está entre 400-600*/
+#Descrição>p{
+    font-size: 21px;
+    font-weight: 600; /*Semi-bold */ 
     line-height: 1.61;
     color: black;
-    padding-bottom: 34px;    
+    padding-bottom: 34px; /*Esse é aquele espaçamente até a barrinha (item 4 do exercicio de Nathan)  */    
 }
-hr{             /*Essa é só aquela barrinha separadora*/
+hr{             /*Esta é só aquela barrinha separadora*/
     border: 0;
     border-top: 4px solid rgba(180, 171, 171, 0.952);
 }
 #Ingredientes>h2{
-    padding-top: 34px;
+    padding-top: 34px;  /*Esse é aquele espaçamente até a barrinha (item 5 do exercicio de Nathan)  */   
     font-size: 34px;
     color: #FFB300;
     font-weight: bold;
 }
 #Ingredientes>ul{
     font-size: 21px;
-    font-weight: 500; /*Semibold*/
-/*REVISAR ESTO    line-height: 21px*1.61;  */
+    font-weight: 600; /*Semibold*/
+    line-height: 1.61em;
 }
 #Modo-de-preparo>ol{
     font-size: 21px;
-    font-weight: 500;
-/*REVISAR ESTO    line-height: 21px*1.61;  */        
+    font-weight: 600;   /*Semibold*/
+    line-height: 1.61em;        
 }
 iframe{ /*Não tenho video mas sim um mapa, então apliquei aqui*/
     width: 883px;
     height: 497px;    
 }
-footer{
+footer>a{
     font-size: 21px;
     color: #0037B3;
-    font-weight: 800;
+    font-weight: 900;
 }
+
+/*Até aqui são as especificações do exercicio, agora vou incluir outras para deixar a página mais harmônica e ao mesmo tempo praticar*/
