@@ -3,6 +3,7 @@ h1{
     font-size: 89px;
     line-height: 79px;
     color: #FFB300;
+    text-align: center;
 }
 
 header>img{
@@ -24,15 +25,16 @@ header>p{
     font-size: 21px;
     font-weight: 600; /*Semi-bold */ 
     line-height: 1.61;
-    color: black;
-    padding-bottom: 34px; /*Esse é aquele espaçamente até a barrinha (item 4 do exercicio de Nathan)  */    
+    color: black;  
 }
-hr{             /*Esta é só aquela barrinha separadora*/
+/*A seguinte é só aquela barrinha separadora*/
+hr{             
+    margin-top: 34px;       /*Esse é aquele espaçamento até a parágrafo anterior (item 4 do exercicio de Nathan)  */  
+    margin-bottom: 34px;    /*(item 5) - Esses espaçamentos poderiam ficar nos parrafos também em relação à barra ou desde a barra ao paragrafo como eu fiz aqui*/
     border: 0;
     border-top: 4px solid rgba(180, 171, 171, 0.952);
 }
 #Ingredientes>h2{
-    padding-top: 34px;  /*Esse é aquele espaçamente até a barrinha (item 5 do exercicio de Nathan)  */   
     font-size: 34px;
     color: #FFB300;
     font-weight: bold;
@@ -58,3 +60,35 @@ footer>a{
 }
 
 /*Até aqui são as especificações do exercicio, agora vou incluir outras para deixar a página mais harmônica e ao mesmo tempo praticar*/
+
+h2{
+    font-size: 34px;
+    color: #FFB300;
+    font-weight: bold;
+}
+div>img{
+        width: 500px;
+        height: 300px;
+}
+div>ul{
+    font-size: 21px;
+    font-weight: 600; /*Semibold*/
+    line-height: 1.61em;
+}
+div>p{
+    font-size: 21px;
+    font-weight: 600; /*Semi-bold */ 
+    line-height: 1.61;
+    color: black;
+}
+span{
+    color:tomato;
+    font-style: italic;
+}
+span:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 50px;
+    padding: 20px;
+}
